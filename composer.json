@@ -1,0 +1,22 @@
+{
+    "name": "walnut/lib_data",
+    "authors": [
+        {
+            "name": "Marian Kostadinov",
+            "email": "manchokapitancho@gmail.com"
+        }
+    ],
+	"autoload": {
+		"psr-4": {
+			"Walnut\\Lib\\Data\\": "src/",
+			"Walnut\\Lib\\Test\\Data\\": "tests/"
+		}
+	},
+	"require": {
+		"php": ">=8.2"
+	},
+	"require-dev": {
+		"vimeo/psalm": ">=4.23.0",
+		"phpunit/phpunit": ">=9.5.20"
+	}
+}
